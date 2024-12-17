@@ -252,3 +252,20 @@ td.border-bottom {
 .canselect {
   user-select: text;
 }
+.warning {
+    position: fixed;
+    display: none;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    background-color: whitesmoke;
+    opacity: .8;
+    --full-op: .8;
+    color: red;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+    animation: fade-in 1s;
+    -webkit-animation: fade-in 1s;
+}
